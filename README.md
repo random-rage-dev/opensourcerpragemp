@@ -1,4 +1,4 @@
-# statelife
+# Open Source Gamemode
 Open Source Roleplay Gamemode for RageMP
 
 Codeowner:
