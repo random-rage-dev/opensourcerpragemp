@@ -4,7 +4,6 @@ require("other/keys.js"); // Key Binds
 require("other/index.js");
 require("other/noclip"); // No Clip
 require("other/betternotifs");
-require("other/passport/index.js");
 require("charchooser")
 require("playermenu");
 require("CharCreator");
@@ -20,8 +19,6 @@ require("factions/lspd");
 require("factions/medic");
 require("Bank");
 require('AnimPlayer');
-require('Handy');
-require('Voice');
 require('CarTuner');
 require('Licenseshop');
 require('Passenger');
