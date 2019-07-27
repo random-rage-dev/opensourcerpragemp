@@ -1,4 +1,4 @@
-# statelife
+# Open Source Gamemode
 Open Source Roleplay Gamemode for RageMP
 
 Codeowner:
@@ -13,6 +13,8 @@ Everyone can use this Code. This Code is Open Source and i update this Code.
 You can Donate me for Thanks :) https://www.paypal.me/snilloctv
 
 I Stream Updates on my Twitch Channel: http://twitch.tv/snilloctv
+
+Support: https://discord.gg/UjDT62Q 
 
 
 Codes:
