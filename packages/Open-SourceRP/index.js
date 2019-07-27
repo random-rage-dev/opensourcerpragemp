@@ -1,9 +1,3 @@
-/*
-	Credits:
-		- MrPancakers
-		- Root
-		- Buckets
-*/
 global.gm = {};
 
 gm.mysql = require('./mysql.js');
