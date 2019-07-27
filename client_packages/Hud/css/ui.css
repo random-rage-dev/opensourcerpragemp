@@ -1,0 +1,489 @@
+@font-face {
+	font-family: 'OSL';
+	src: url('../font/OSL.ttf') format('truetype');
+}
+
+* {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+@font-face {
+	font-family: 'FA';
+	src: url('../font/FA.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MAKI';
+	src: url('../font/MAKI.ttf') format('truetype');
+}
+
+@keyframes fadein {
+    from { opacity: 0; right: 9vw;}
+    to   { opacity: 1; right: 0vw;}
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; right: 9vw;}
+    to   { opacity: 1; right: 0vw;}
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; right: 9vw;}
+    to   { opacity: 1; right: 0vw;}
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; right: 9vw;}
+    to   { opacity: 1; right: 0vw;}
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; right: 9vw;}
+    to   { opacity: 1; right: 0vw;}
+}
+
+* {
+	font-family:'OSL';
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#top {
+	right: 0vw;
+	position: absolute;
+	top: 36vw;
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation: fadein 2s;
+}
+
+#mid {
+	right: 0vw;
+    position: absolute;
+    top: 36vw;
+	-webkit-animation: fadein 2.2s;
+    -moz-animation: fadein 2.2s;
+    -ms-animation: fadein 2.2s;
+    -o-animation: fadein 2.2s;
+    animation: fadein 2.2s;
+}
+
+#bot {
+	right: 0vw;
+    position: absolute;
+    top: 36vw;
+	-webkit-animation: fadein 2.4s;
+    -moz-animation: fadein 2.4s;
+    -ms-animation: fadein 2.4s;
+    -o-animation: fadein 2.4s;
+    animation: fadein 2.4s;
+}
+
+html,body {
+	height: 100vh;
+}
+.show { display: block !important; }
+
+.hidden { display: none; }
+	
+#hud {
+}
+	
+#bar1 {
+	width: 8vw;
+	height: 0.8vw;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: rgba(0, 0, 0, 0.70);
+	position: absolute;
+	padding: 0.5vw;
+	right:1.4vw;
+	top:0.7vw;
+}
+
+#icon1 {
+	font-size: 1.2vw;
+	color: rgba(255, 255, 255, 1);
+	width: 1.8vw;
+	height: 2.6vw;
+	position: absolute;
+	padding: vw;
+	right:8vw;
+	top:0.8vw;
+}
+
+#text1 {
+	font-size: 1.0vw;
+	color: rgba(255, 138, 138, 1);
+	width: 1.8vw;
+	height: 1.2vw;
+	position: absolute;
+	right:6.2vw;
+	top:0.9vw;
+	z-index: 2;
+}
+
+#line1 {
+	width: 6vw;
+	height: 0.4vw;
+	border-radius: 20px 0px;
+	background: rgba(255, 255, 255, 1);
+	position: absolute;
+	right:2.2vw;
+	top:1.4vw;
+	z-index: 0;
+}
+
+#bar2 {
+	width: 8vw;
+	height: 0.8vw;
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	background: rgba(0, 0, 0, 0.70);
+	position: absolute;
+	padding: 0.5vw;
+	right:1.4vw;
+	top:2.6vw;
+}
+
+#icon2 {
+	font-size: 1.1vw;
+	color: rgba(255, 255, 255, 1);
+	width: 1.8vw;
+	height: 2.6vw;
+	position: absolute;
+	padding: vw;
+	right:8vw;
+	top:2.8vw;
+}
+
+#line2 {
+	width: 6vw;
+	height: 0.4vw;
+	border-radius: 20px 0px;
+	background: rgba(255, 255, 255, 1);
+	position: absolute;
+	right:2.2vw;
+	top:3.3vw;
+	z-index: 0;
+}
+
+#subline2 {
+	width: 30%;
+	height: 0.4vw;
+	border-radius: 20px 0px;
+	background: rgba(41, 128, 185, 1);
+	position: absolute;
+	z-index: 1;
+}
+
+#text2 {
+	font-size: 1.2vw;
+	color: rgba(255, 255, 255, 0.7);
+	width: 1.8vw;
+	height: 1.2vw;
+	position: absolute;
+	padding: vw;
+	right:8.5vw;
+	bottom:1.5vw;
+}
+
+#bar3 {
+	width: 8vw;
+	height: 0.8vw;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: rgba(0, 0, 0, 0.70);
+	position: absolute;
+	padding: 0.5vw;
+	right:1.4vw;
+	top:4.5vw;
+}
+
+#icon3 {
+	font-size: 1.1vw;
+	color: rgba(255, 255, 255, 1);
+	width: 1.8vw;
+	height: 2.6vw;
+	position: absolute;
+	padding: vw;
+	right:8vw;
+	top:4.6vw;
+}
+
+#line3 {
+	width: 6vw;
+	height: 0.4vw;
+	border-radius: 20px 0px;
+	background: rgba(255, 255, 255, 1);
+	position: absolute;
+	right:2.2vw;
+	top:5.2vw;
+	z-index: 0;
+}
+
+#subline3 {
+	width: 50%;
+	height: 0.4vw;
+	border-radius: 20px 0px;
+	background: rgba(22, 160, 133, 1);
+	position: absolute;
+	z-index: 1;
+}
+
+
+#text3 {
+	font-size: 1.2vw;
+	color: rgba(255, 255, 255, 0.7);
+	width: 1.8vw;
+	height: 1.2vw;
+	position: absolute;
+	padding: vw;
+	right:13.2vw;
+	bottom:1.5vw;
+}
+
+#money {
+		right: 0vw;
+    position: absolute;
+    top: 36vw;
+	-webkit-animation: fadein 2.6s;
+    -moz-animation: fadein 2.6s;
+    -ms-animation: fadein 2.6s;
+    -o-animation: fadein 2.6s;
+    animation: fadein 2.6s;
+}
+
+#bar4 {
+    width: 8vw;
+    height: 0.8vw;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    padding: 0.5vw;
+    right: 1.4vw;
+    top: 6.4vw;
+}
+
+#icon4 {
+	font-size: 1.1vw;
+	color: rgba(255, 255, 255, 1);
+	width: 1.8vw;
+	height: 2.6vw;
+	position: absolute;
+	padding: vw;
+	right:8.1vw;
+	top: 6.5vw;
+}
+
+#text4 {
+	font-size: 1.2vw;
+    color: rgb(255, 255, 255);
+    width: 1.8vw;
+    height: 1.2vw;
+    position: absolute;
+    padding: vw;
+    right: 5.6vw;
+    bottom: -7.6vw;
+}
+
+#gas {
+	right: 0vw;
+	position: absolute;
+	top: 41.7vw;
+	-webkit-animation: fadein 2.8s;
+	-moz-animation: fadein 2.8s;
+	-ms-animation: fadein 2.8s;
+	-o-animation: fadein 2.8s;
+	animation: fadein 2.8s;
+}
+
+#bar5 {
+	width: 8vw;
+	height: 0.8vw;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: rgba(0, 0, 0, 0.70);
+	position: absolute;
+	padding: 0.5vw;
+	right:1.4vw;
+	top:2.6vw;
+}
+
+#icon5 {
+	font-size: 1.1vw;
+	font-weight: 900;
+	color: rgba(255, 255, 255, 1);
+	position: absolute;
+	right: 8.5vw;
+	top:2.8vw;
+	background: rgb(216, 78, 78);
+	padding-left: 0.4vw;
+	padding-right: 0.4vw;
+	border-radius: 3px;
+}
+
+#line5 {
+	width: 6vw;
+	height: 0.4vw;
+	border-radius: 20px 0px;
+	background: rgba(255, 255, 255, 1);
+	position: absolute;
+	right:2.2vw;
+	top:3.3vw;
+	z-index: 0;
+}
+
+#subline5 {
+	width: 30%;
+	height: 0.4vw;
+	border-radius: 20px 0px;
+	background: rgb(193, 10, 10);
+	position: absolute;
+	z-index: 1;
+}
+
+#text5 {
+	font-size: 1.2vw;
+	color: rgba(255, 255, 255, 0.7);
+	width: 1.8vw;
+	height: 1.2vw;
+	position: absolute;
+	padding: vw;
+	right:8.5vw;
+	bottom:1.5vw;
+}
+
+#kstand {
+	right: 0vw;
+	position: absolute;
+	top: 39.8vw;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	-o-animation: fadein 3s;
+	animation: fadein 3s;
+}
+
+#bar6 {
+    width: 8vw;
+    height: 0.8vw;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    padding: 0.5vw;
+    right: 1.4vw;
+    top: 6.4vw;
+}
+
+#icon6 {
+	font-size: 1.1vw;
+	font-weight: 900;
+	color: rgba(255, 255, 255, 1);
+	position: absolute;
+	right: 7.8vw;
+	top: 6.55vw;
+	background: rgb(216, 78, 78);
+	padding-left: 0.4vw;
+	padding-right: 0.4vw;
+	border-radius: 3px;
+}
+
+#text6 {
+	font-size: 1.2vw;
+	color: rgb(255, 255, 255);
+	width: 1.8vw;
+	height: 1.2vw;
+	position: absolute;
+	padding: vw;
+	right: 5.9vw;
+	bottom: -7.6vw;
+	text-align: right;
+}
+
+#text6b {
+	font-size: 1.2vw;
+	color: rgb(255, 255, 255);
+	width: 1.8vw;
+	height: 1.2vw;
+	position: absolute;
+	padding: vw;
+	right: 1.7vw;
+	bottom: -7.6vw;
+}
+#kmh {
+	right: 0vw;
+	position: absolute;
+	top: 5.7vw;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	-o-animation: fadein 3s;
+	animation: fadein 3s;
+}
+
+#bar7 {
+    width: 8vw;
+    height: 0.8vw;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    padding: 0.5vw;
+    right: 1.4vw;
+    top: 6.4vw;
+}
+
+#icon7 {
+	font-size: 1.1vw;
+	font-weight: 900;
+	color: rgba(255, 255, 255, 1);
+	position: absolute;
+	right: 8.5vw;
+	top: 6.55vw;
+}
+
+#text7 {
+	font-size: 1.2vw;
+	color: rgb(255, 255, 255);
+	width: 1.8vw;
+	height: 3.6vw;
+	position: absolute;
+	padding: vw;
+	right: 5.9vw;
+	bottom: -7.6vw;
+	text-align: right;
+}
+
+#text7b {
+	font-size: 1.2vw;
+	color: rgb(255, 255, 255);
+	width: 1.8vw;
+	height: 3.6vw;
+	position: absolute;
+	padding: vw;
+	right: 3.7vw;
+	bottom: -7.6vw;
+}

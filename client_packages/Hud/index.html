@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/ui.css" type="text/css">
+<link href="css/fa-solid.min.css" rel="stylesheet">
+<link href="css/fontawesome.min.css" rel="stylesheet">
+<script src="js/fa-solid.min.js"></script>
+<script src="js/fontawesome.min.js"></script>
+<script src="index.js"></script>
+</head>
+<body>
+<div ID="hud">
+	<div id="top">
+			<div id="bar1"></div><div id="icon1"><i class="fa fa-microphone"></i></div><div id="text1"><i class="fa fa-stop"></i></div><div id="line1"></div>
+			<div id="sbar1"></div>
+	</div>
+	
+	<div id="mid">
+			<div id="bar2"></div><div id="icon2"><i class="fa fa-tint"></i></div><div id="line2"><div id="subline2"></div></div>
+	</div>
+	
+	<div id="bot">
+			<div id="bar3"></div><div id="icon3"><i class="fa fa-utensils"></i></div><div id="line3"><div id="subline3"></div></div>
+	</div>
+	<div id="money">
+			<div id="bar4"></div><div id="icon4"><i class="fas fa-money-bill-alt"></i></div><span id="text4">100$</span>
+	</div>
+	<div id="carhud">
+		<div id="gas">
+			<div id="bar5"></div><div id="icon5">F</div><div id="line5"><div id="subline5"></div></div>
+		</div>
+		<div id="kstand">>
+			<div id="bar6"></div><div id="icon7"><i class="fas fa-tachometer-alt"></i></div><span id="text7">100</span><div id="text7b">KMH</div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+<div id="invisible" style="display:none"></div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+
+	function setMicroValue(value)
+	{
+		if(value == 0)
+		{
+			$('#text1').css({
+				'right' : '6.2vw'
+			});
+		}
+		else if(value == 1)
+		{
+			$('#text1').css({
+				'right' : '5.6vw'
+			});
+		}
+		else if(value == 2)
+		{
+			$('#text1').css({
+				'right' : '4.8vw'
+			});
+		}
+		else if(value == 3)
+		{
+			$('#text1').css({
+				'right' : '2.4vw'
+			});
+		}
+		else if(value == 4)
+		{
+			$('#text1').css({
+				'right' : '1.2vw'
+			});
+		}
+	}
+    
+    function setWaterLevel(value)
+    {
+        document.getElementById("subline2").style.width = value + "%";
+    }
+    
+    function setFoodLevel(value)
+    {
+        document.getElementById("subline3").style.width = value + "%";
+    }
+    
+    function setMoneyAmount(value)
+    {
+        document.getElementById("text4").innerHTML = value + "$";
+    }
+	
+	function setVehicleHudVisible(visible)
+	{
+		var x = document.getElementById("carhud");
+	
+		if (visible) {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+	
+	function UpdateVehicleValues(fuel, driven, speed)
+	{
+		document.getElementById("subline5").style.width = fuel + "%";
+		//document.getElementById("text6").innerHTML = driven;
+		document.getElementById("text7").innerHTML = speed;
+	}
+</script>
+
+</body>
+</html>

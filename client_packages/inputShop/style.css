@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-family: arial;
+}
+.number-input {
+  position: relative;
+  margin-top: 50px;
+}
+.number-input input[type="number"] {
+  display: inline-block;
+  width: 350px;
+  height: 40px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid rgb(0, 213, 246);
+  border-radius: 1px;
+  padding: 10px 10px 10px 100px;
+}
+.number-input input[type="number"] + label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  border-radius: 1px 0 0 1px;
+  background: #104e8b;
+}

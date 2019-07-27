@@ -1,0 +1,38 @@
+#document{
+	margin: 0 auto;
+	width: 580;
+	height: 824;
+	background-repeat: no-repeat, repeat;
+	
+}
+/*
+#firstName{
+	font-size: 12px;
+	font-family: Bahnschrift;
+	padding-top: 346px;
+	padding-left: 185px;	
+}
+#firstMoney{
+	font-size: 12px;
+	font-family: Bahnschrift;
+	padding-top: 102px;
+	padding-left: 198px;
+	color: blue;
+}
+#sonstiges{
+	font-size: 12px;
+	font-family: Bahnschrift;
+	padding-top: 77px;
+	padding-left: 80px;
+	color: blue;
+	
+	
+	
+}
+#bank{
+	font-size: 12px;
+	font-family: Bahnschrift;
+	padding-top: 145px;
+	padding-left: 80px;
+	color: blue;
+}

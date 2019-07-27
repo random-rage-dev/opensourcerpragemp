@@ -1,0 +1,231 @@
+{
+  "bannerSprite": {
+    "library": "shopui_title_lowendfashion2",
+    "texture": "shopui_title_lowendfashion2"
+  },
+  "shops": [
+    {
+      "x": 424.8990173339844,
+      "y": -806.348388671875,
+      "z": 28.491147994995117
+    },
+    {
+      "x": -822.1012573242188,
+      "y": -1074.122802734375,
+      "z": 10.328100204467773
+    }
+  ],
+  "male": {
+    "clothes": {
+      "1": [
+        {
+          "name": "No Mask",
+          "drawable": 0,
+          "texture": 0
+        },
+        {
+          "name": "Pink Pig",
+          "drawable": 1,
+          "texture": 0,
+          "price": 100
+        },
+        {
+          "name": "Brown Pig",
+          "drawable": 1,
+          "texture": 1,
+          "price": 100
+        }
+      ],
+      "4": [
+        {
+          "name": "Default Pants",
+          "drawable": 0,
+          "texture": 0
+        },
+        {
+          "name": "Love Heart Boxer Shorts",
+          "drawable": 21,
+          "texture": 0,
+          "price": 5000
+        },
+        {
+          "name": "Blue Digital Cargo",
+          "drawable": 86,
+          "texture": 0,
+          "price": 300
+        },
+        {
+          "name": "Blue Digital Cargo Shorts",
+          "drawable": 88,
+          "texture": 0,
+          "price": 280
+        }
+      ],
+      "11": [
+        {
+          "name": "Default Top",
+          "drawable": 0,
+          "texture": 0
+        },
+        {
+          "name": "White V Neck",
+          "drawable": 1,
+          "texture": 0,
+          "price": 100
+        },
+        {
+          "name": "Green V Neck",
+          "drawable": 1,
+          "texture": 7,
+          "price": 100
+        },
+        {
+          "name": "SecuroServ Varsity",
+          "drawable": 129,
+          "texture": 0,
+          "price": 300
+        }
+      ]
+    },
+    "props": {
+      "0": [
+        {
+          "name": "No Hat",
+          "drawable": -1,
+          "texture": -1
+        },
+        {
+          "name": "Black Paisley Bandana",
+          "drawable": 14,
+          "texture": 1,
+          "price": 50
+        },
+        {
+          "name": "Red Santa Hat",
+          "drawable": 22,
+          "texture": 0,
+          "price": 30
+        },
+        {
+          "name": "Black Riot",
+          "drawable": 123,
+          "texture": 0,
+          "price": 300
+        }
+      ],
+      "1": [
+        {
+          "name": "No Glasses",
+          "drawable": -1,
+          "texture": -1
+        },
+        {
+          "name": "Gold Aviators",
+          "drawable": 5,
+          "texture": 0,
+          "price": 200
+        }
+      ]
+    }
+  },
+  "female": {
+    "clothes": {
+      "1": [
+        {
+          "name": "No Mask",
+          "drawable": 0,
+          "texture": 0
+        },
+        {
+          "name": "Pink Pig",
+          "drawable": 1,
+          "texture": 0,
+          "price": 100
+        },
+        {
+          "name": "Brown Pig",
+          "drawable": 1,
+          "texture": 1,
+          "price": 100
+        }
+      ],
+      "4": [
+        {
+          "name": "Default Pants",
+          "drawable": 0,
+          "texture": 0
+        },
+        {
+          "name": "Love Heart Boxer Shorts",
+          "drawable": 21,
+          "texture": 0,
+          "price": 5000
+        },
+        {
+          "name": "Blue Digital Cargo",
+          "drawable": 86,
+          "texture": 0,
+          "price": 300
+        },
+        {
+          "name": "Blue Digital Cargo Shorts",
+          "drawable": 88,
+          "texture": 0,
+          "price": 280
+        }
+      ],
+      "11": [
+        {
+          "name": "Default Top",
+          "drawable": 0,
+          "texture": 0
+        },
+        {
+          "name": "White V Neck",
+          "drawable": 1,
+          "texture": 0,
+          "price": 100
+        },
+        {
+          "name": "Green V Neck",
+          "drawable": 1,
+          "texture": 7,
+          "price": 100
+        },
+        {
+          "name": "SecuroServ Varsity",
+          "drawable": 129,
+          "texture": 0,
+          "price": 300
+        }
+      ]
+    },
+    "props": {
+      "7": [
+        {
+          "name": "No Bracelet",
+          "drawable": -1,
+          "texture": -1
+        },
+        {
+          "name": "Gold Snake Cuff",
+          "drawable": 0,
+          "texture": 0,
+          "price": 200
+        },
+        {
+          "name": "Light Wrist Chain (R)",
+          "drawable": 7,
+          "texture": 0,
+          "price": 60
+        },
+        {
+          "name": "Spiked Gauntlet (R)",
+          "drawable": 13,
+          "texture": 0,
+          "price": 85
+        }
+      ]
+    }
+  }
+}

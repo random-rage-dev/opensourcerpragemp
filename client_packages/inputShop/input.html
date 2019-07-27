@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="style.css" />
+
+<div class="number-input">
+  <input type="number" min="0" max="9999999999" id="input1" placeholder="Bitte geben sie eine Anzahl an!" oninput="validity.valid||(value='');">
+  <label for="input1">Summe</label>
+</div>
+
+<script>
+  var trigger = '';
+  var num = false;
+  var split = false;
+
+  function setSplit(sp) {
+    split = sp;
+  }
+
+  function setNum(np) {
+    num = np;
+  }
+
+  function setTrigger(name) {
+    trigger = name;
+  }
+
+
+  window.addEventListener("keydown", function (event) {
+    var key = event.keyCode;
+    if (key == 13) {
+      if (document.getElementById("input1").value === '') return;
+
+      if (num === true) {
+        if (!isNaN(document.getElementById("input1").value)) return;
+      }
+
+      mp.trigger("sendInputShop", trigger, document.getElementById("input1").value);
+    }
+
+    if(key == 27 || key == 8) {
+      mp.trigger("closeInputShop");
+    }
+  });
+</script>
